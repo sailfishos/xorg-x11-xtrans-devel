@@ -1,0 +1,13 @@
+Name: xorg-x11-xtrans-devel
+Summary: X.Org X11 developmental X transport library
+Version: 1.2.5
+Release: 1
+Group: System/Libraries
+License: MIT/X11
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/lib/xtrans-%{version}.tar.bz2
+
+PkgBR:
+    - xorg-x11-util-macros
+Configure: configure
